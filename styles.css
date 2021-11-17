@@ -1,0 +1,48 @@
+/**********************BODY SELECTOR*******************/
+body {
+    background-color: #eaf6fe;
+    background-image: url('photo/IMG_2500.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.circular {
+    border-radius: 100%;
+}
+img:hover {
+    background-color: gold;
+}
+/*********************HEADING SELECTOR*****************/
+h1 {
+    color: #66bfbf;
+    font-size: 100px;
+}
+#heading {
+    font-size: 50px;
+}
+h3 {
+    color: hotpink;
+}
+/********************HR RULE SELECTOR*****************/
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+.forms{
+    padding: 10px 15px 20px 30px;
+}
+.forms input{
+    padding: 10px 15px;
+    border-radius: 25px;
+    margin: 8px 2px;
+
+}
+.container{
+    width: 70%;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
